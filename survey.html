@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="survey.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <script src="https://kit.fontawesome.com/2b73c9a97e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1 id="title">Intermingle Club, Participants Survey Form</h1>
+            <p id="description">Thank you for taking the time to help us improve the club. Your feedback is important</p>
+        </header>
+        <main>
+            <form action="" id="survey-form">
+                <div class="form-group"><label for="" id="name-label">Name</label>
+                    <input type="text" id="name" placeholder="Name" required></div>
+                <div class="form-group"> <label for="" id="email-label">Email</label>
+                    <input type="email" id="email" placeholder="Email" required></div>
+                <div class="form-group"> <label for="" id="number-label">Age (optional)</label>
+                    <input type="number" id="number" min="10" max="60" placeholder="Age"></div>
+                <div class="form-group"> <label for="">Which option best describes your current role?</label>
+                    <select name="role" id="dropdown">
+                        <option value="">Student</option>
+                        <option value="">Full Time Job</option>
+                        <option value="">Full Time Learner</option>
+                        <option value="">Prefer not to say</option>
+                        <option value="">Other</option>
+                    </select></div>
+                <div class="form-group radio-group"> <label for="">Would you recommend Intermingle Club to a friend?</label>
+                    <label for="">
+                        <input type="radio" name="choice" value="Definitely">Definitely
+                    </label>
+                    <label for="">
+                        <input type="radio" name="choice" value="Maybe">Maybe
+                    </label>
+                    <label for="">
+                        <input type="radio" name="choice" value="Not sure">Not sure
+                    </label></div>
+                <div class="form-group"> <label for="">What was your favorite spot in the event?
+                    </label>
+                    <select name="" id="">
+                        <option value="">Workshops-Trainings</option>
+                        <option value="">Conferences</option>
+                        <option value="">Skills-Talents</option>
+                        <option value="">Games</option>
+                    </select></div>
+                <div class="form-group"> <label for="">What would you like to see improved? (Check all that
+                        apply)</label>
+                    <label for="">
+                        <input type="checkbox" name="" id="" value="Front-end Projects">Service
+                    </label>
+                    <label for="">
+                        <input type="checkbox" name="" id="" value="Back-end Projects">Workshops
+                    </label>
+                    <label for="">
+                        <input type="checkbox" name="" id="" value="Data Visualization">Logos
+                    </label>
+                    <label for="">
+                        <input type="checkbox" name="" id="" value="Challenges">Online Activities
+                    </label>
+                    <label for="">
+                        <input type="checkbox" name="" id="" value="Open Source Community">Conference Management
+                    </label>
+                    </div>
+                <div class="form-group"> <label for="">Any comments or suggestions?</label>
+                    <textarea name="" id="" cols="30" rows="10"></textarea></div>
+                <div class="form-group btn btn1">
+                    <div class="inner"></div>
+                    <button type="submit" id="submit">Submit</button>
+                </div>
+                <div>
+                    <ul class="box-area">
+                        <li class="far fa-snowflake"></li>
+                        <li></li>
+                        <li class="far fa-snowflake"></li>
+                        <li></li>
+                        <li class="far fa-snowflake"></li>
+                        <li></li>
+                        <li class="far fa-snowflake"></li>
+                        <li></li>
+                        <li class="far fa-snowflake"></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </form>
+
+        </main>
+
+    </div>
+
+    <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+</body>
+
+</html>
